@@ -1,0 +1,117 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#wrapper {
+    width: 550px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 1em;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#wrapper img {
+    width: 3em;
+}
+
+#wrapper h4 {
+    font-weight: 500;
+    margin-bottom: -5px;
+}
+
+.welcome {
+    font-size: 0.7em;
+    margin-bottom: -10px;
+}
+
+.box {
+    width: 50%;
+    border-radius: 0.5em;
+}
+
+.kotak-kanan {
+    padding-left: 20px;
+    background-color: rgb(1, 41, 1) ;
+}
+
+.kotak-kiri {
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+form input{
+    outline: none;
+    border: 1px solid rgb(142, 142, 142);
+    width: 100%;
+    border-radius: 0.2em;
+    height: 25px;
+}
+
+form h5 {
+    font-size: 10px;
+    margin-bottom: -2px;
+    font-weight: 400;
+}
+
+form button {
+    background-color: rgb(2, 58, 2);
+    width: 100%;
+    height: 25px;
+    border-radius: 0.2em;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(1, 41, 1);
+    cursor: pointer;
+    border: 1px solid rgb(1, 41, 1);
+    font-family: poppins;
+    font-weight: 500;
+}
+
+form button:hover {
+    color: rgb(1, 41, 1);
+    background-color: white;
+}
+
+form p {
+    font-size: 12px;
+    text-align: center;
+}
+
+form p a {
+    text-decoration: none;
+    color: green;
+}
+
+form p a:hover {
+    text-decoration: underline;
+}
+
+.kotak-kanan h1 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.kotak-kanan h2 {
+    color: white;
+    font-weight: 300;
+    margin-left: 40px;
+    line-height: 30px;
+}
